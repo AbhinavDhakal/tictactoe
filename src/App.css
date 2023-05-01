@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.tictac{
+	width: 300px;
+	height: 300px;
+	display: grid;
+	gap: 1px;
+	grid-template-columns: repeat(3, 1fr);
+}
+.tic{
+	 display: inline-block;
+}
+.R{
+	background-color: red;
+	color: white;
+}
+.B{
+	background-color: blue;
+	color: white;
+}
